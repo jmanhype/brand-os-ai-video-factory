@@ -1,0 +1,77 @@
+views:
+  - type: table
+    name: All Content
+    properties:
+      - file
+      - type
+      - channel
+      - status
+      - last_pasted
+      - live_link
+    sort:
+      - property: status
+        direction: asc
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Backlog
+    properties:
+      - file
+      - type
+      - channel
+      - last_pasted
+    filter:
+      - type: property
+        property: status
+        operator: is
+        value: draft
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Ready to Ship
+    properties:
+      - file
+      - type
+      - channel
+      - live_link
+      - violates_shadow
+    filter:
+      - type: property
+        property: status
+        operator: is
+        value: final
+    sort:
+      - property: violates_shadow
+        direction: desc
+  - type: table
+    name: Posted
+    properties:
+      - file
+      - channel
+      - last_pasted
+      - live_link
+    filter:
+      - type: property
+        property: status
+        operator: is
+        value: posted
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Needs Review
+    properties:
+      - file
+      - type
+      - channel
+      - status
+      - live_link
+    filter:
+      - type: property
+        property: violates_shadow
+        operator: is
+        value: true
+    sort:
+      - property: status
+        direction: asc

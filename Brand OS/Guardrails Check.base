@@ -1,0 +1,60 @@
+views:
+  - type: table
+    name: All Flagged
+    properties:
+      - file
+      - type
+      - channel
+      - status
+      - violates_shadow
+      - live_link
+    filter:
+      - type: property
+        property: violates_shadow
+        operator: is
+        value: true
+    sort:
+      - property: status
+        direction: asc
+      - property: type
+        direction: asc
+  - type: table
+    name: Posted Violations
+    properties:
+      - file
+      - type
+      - channel
+      - last_pasted
+      - live_link
+    filter:
+      - type: property
+        property: violates_shadow
+        operator: is
+        value: true
+      - type: and
+      - type: property
+        property: status
+        operator: is
+        value: posted
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Draft Violations
+    properties:
+      - file
+      - type
+      - channel
+    filter:
+      - type: property
+        property: violates_shadow
+        operator: is
+        value: true
+      - type: and
+      - type: property
+        property: status
+        operator: is
+        value: draft
+    sort:
+      - property: type
+        direction: asc

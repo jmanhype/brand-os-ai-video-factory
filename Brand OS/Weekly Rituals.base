@@ -1,0 +1,77 @@
+views:
+  - type: table
+    name: All Rituals
+    properties:
+      - file
+      - type
+      - channel
+      - status
+      - last_pasted
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: ritual
+      - type: or
+      - type: property
+        property: type
+        operator: is
+        value: pin
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Facebook Pins
+    properties:
+      - file
+      - status
+      - last_pasted
+      - live_link
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: pin
+      - type: and
+      - type: property
+        property: channel
+        operator: is
+        value: fb
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Skool Rituals
+    properties:
+      - file
+      - type
+      - status
+      - last_pasted
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: ritual
+      - type: and
+      - type: property
+        property: channel
+        operator: is
+        value: skool
+    sort:
+      - property: last_pasted
+        direction: desc
+  - type: table
+    name: Both Channels
+    properties:
+      - file
+      - type
+      - status
+      - last_pasted
+    filter:
+      - type: property
+        property: channel
+        operator: is
+        value: both
+    sort:
+      - property: last_pasted
+        direction: desc

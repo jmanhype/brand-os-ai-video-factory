@@ -1,0 +1,100 @@
+views:
+  - type: table
+    name: All Sales Assets
+    properties:
+      - file
+      - type
+      - channel
+      - status
+      - last_pasted
+      - live_link
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: sales
+      - type: or
+      - type: property
+        property: type
+        operator: is
+        value: dm
+    sort:
+      - property: type
+        direction: asc
+      - property: channel
+        direction: asc
+  - type: table
+    name: Facebook Assets
+    properties:
+      - file
+      - type
+      - status
+      - live_link
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: sales
+      - type: or
+      - type: property
+        property: type
+        operator: is
+        value: dm
+      - type: and
+      - type: property
+        property: channel
+        operator: is
+        value: fb
+    sort:
+      - property: type
+        direction: asc
+  - type: table
+    name: Skool Assets
+    properties:
+      - file
+      - type
+      - status
+      - live_link
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: sales
+      - type: or
+      - type: property
+        property: type
+        operator: is
+        value: dm
+      - type: and
+      - type: property
+        property: channel
+        operator: is
+        value: skool
+    sort:
+      - property: type
+        direction: asc
+  - type: table
+    name: Ready to Use
+    properties:
+      - file
+      - type
+      - channel
+      - live_link
+    filter:
+      - type: property
+        property: type
+        operator: is
+        value: sales
+      - type: or
+      - type: property
+        property: type
+        operator: is
+        value: dm
+      - type: and
+      - type: property
+        property: status
+        operator: is
+        value: final
+    sort:
+      - property: channel
+        direction: asc
