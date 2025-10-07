@@ -1,8 +1,23 @@
 ---
 type: reference
-source: Obsidian Official Documentation
+channel: internal
+status: draft
 date: 2025-10-06
+source: Obsidian Official Documentation
+aliases:
+  - Obsidian Guide
+  - Tags Reference
+  - Properties Reference
+tags:
+  - type/reference
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/reference #channel/internal #status/draft
 
 # Obsidian Tags and Properties Reference
 
