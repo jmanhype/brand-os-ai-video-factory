@@ -1,8 +1,21 @@
 ---
-type: protocol
+type: runbook
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - 30-Minute Protocol
+  - Trending Response
+tags:
+  - type/runbook
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/runbook #channel/internal #status/draft
 
 # RAPID RESPONSE (≤30 minutes, Rebel + Lover)
 

@@ -2,10 +2,20 @@
 type: pin
 channel: fb
 status: draft
+date: 2025-10-06
+aliases:
+  - Facebook Pins
+  - Weekly Threads
+tags:
+  - type/pin
+  - channel/fb
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/pin #channel/fb #status/draft
 
 # Pins — Facebook (AI Video Factory)
 

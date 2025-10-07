@@ -1,11 +1,21 @@
 ---
-type: banner
+type: sales
 channel: both
 status: draft
+date: 2025-10-06
+aliases:
+  - Headers
+  - Community Names
+tags:
+  - type/sales
+  - channel/both
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/sales #channel/both #status/draft
 
 # Banners Copy — AI Video Factory
 

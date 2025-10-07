@@ -2,10 +2,20 @@
 type: dm
 channel: fb
 status: draft
+date: 2025-10-06
+aliases:
+  - DM Templates
+  - Message Scripts
+tags:
+  - type/dm
+  - channel/fb
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/dm #channel/fb #status/draft
 
 # DM Scripts — AI Video Factory
 

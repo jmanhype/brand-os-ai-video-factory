@@ -1,8 +1,21 @@
 ---
-type: workflow
+type: runbook
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Content Pipeline
+  - Kanban Board
+tags:
+  - type/runbook
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/runbook #channel/internal #status/draft
 
 # CREATOR QUEUE (Backlog → Ready → Filming → Posted)
 

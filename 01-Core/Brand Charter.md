@@ -2,10 +2,20 @@
 type: charter
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Brand Identity
+  - AI Video Factory Charter
+tags:
+  - type/charter
+  - channel/internal
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/charter #channel/internal #status/draft
 
 # Brand Charter — AI Video Factory (Rebel + Lover)
 

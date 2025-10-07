@@ -1,8 +1,21 @@
 ---
-type: dashboard
+type: runbook
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Metrics Tracking
+  - Performance Dashboard
+tags:
+  - type/runbook
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/runbook #channel/internal #status/draft
 
 # POST LOG — DASHBOARD (Table view on post)
 

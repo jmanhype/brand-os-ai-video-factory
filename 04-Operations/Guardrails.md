@@ -1,11 +1,21 @@
 ---
-type: guardrail
+type: runbook
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Risk Management
+  - Shadow Enforcement
+tags:
+  - type/runbook
+  - channel/internal
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/runbook #channel/internal #status/draft
 
 # Guardrails — Rebel + Lover (AI Video Factory)
 

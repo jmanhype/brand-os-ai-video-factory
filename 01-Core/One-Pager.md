@@ -1,8 +1,21 @@
 ---
-type: overview
+type: charter
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Quick Reference
+  - Daily Guide
+tags:
+  - type/charter
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/charter #channel/internal #status/draft
 
 # AI Video Factory — One-Pager
 

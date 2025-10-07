@@ -1,3 +1,16 @@
+---
+type: charter
+channel: internal
+status: draft
+date: 2025-10-06
+tags:
+  - type/charter
+  - channel/internal
+  - status/draft
+---
+
+#type/charter #channel/internal #status/draft
+
 # AI Video Factory — Brand OS
 
 **Promise:** From blank to posted in one sitting

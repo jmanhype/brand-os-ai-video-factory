@@ -1,8 +1,21 @@
 ---
-type: review
+type: runbook
 channel: internal
 status: draft
+date: 2025-10-06
+aliases:
+  - Performance Review
+  - Monthly Retrospective
+tags:
+  - type/runbook
+  - channel/internal
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/runbook #channel/internal #status/draft
 
 # MONTHLY REVIEW (60m, first Monday)
 

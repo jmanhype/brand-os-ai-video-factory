@@ -1,11 +1,21 @@
 ---
-type: start_here
+type: ritual
 channel: skool
 status: draft
+date: 2025-10-06
+aliases:
+  - Onboarding
+  - Getting Started
+tags:
+  - type/ritual
+  - channel/skool
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/ritual #channel/skool #status/draft
 
 # Skool — Start-Here (AI Video Factory)
 

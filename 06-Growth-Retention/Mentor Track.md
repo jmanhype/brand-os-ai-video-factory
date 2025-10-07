@@ -1,8 +1,21 @@
 ---
-type: application
+type: ritual
 channel: skool
 status: draft
+date: 2025-10-06
+aliases:
+  - Mentor Application
+  - Advanced Track
+tags:
+  - type/ritual
+  - channel/skool
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/ritual #channel/skool #status/draft
 
 # MENTOR TRACK (application)
 

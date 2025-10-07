@@ -2,10 +2,20 @@
 type: sales
 channel: skool
 status: draft
+date: 2025-10-06
+aliases:
+  - Sales Copy
+  - Membership Page
+tags:
+  - type/sales
+  - channel/skool
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/sales #channel/skool #status/draft
 
 # Skool — Sales Page (AI Video Factory)
 

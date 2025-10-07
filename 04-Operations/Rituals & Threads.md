@@ -2,10 +2,20 @@
 type: ritual
 channel: both
 status: draft
+date: 2025-10-06
+aliases:
+  - Weekly Schedule
+  - Content Rituals
+tags:
+  - type/ritual
+  - channel/both
+  - status/draft
 last_pasted:
 live_link:
 violates_shadow: false
 ---
+
+#type/ritual #channel/both #status/draft
 
 # Rituals & Threads — AI Video Factory
 

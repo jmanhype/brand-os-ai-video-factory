@@ -1,8 +1,21 @@
 ---
-type: retention
+type: ritual
 channel: skool
 status: draft
+date: 2025-10-06
+aliases:
+  - Member Progression
+  - Level System
+tags:
+  - type/ritual
+  - channel/skool
+  - status/draft
+last_pasted:
+live_link:
+violates_shadow: false
 ---
+
+#type/ritual #channel/skool #status/draft
 
 # PATH TO MASTERY (Retention Ladder)
 
