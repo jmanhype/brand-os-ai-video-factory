@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-10-06T19:53:39.410175",
+    "tool_name": "",
+    "tool_input": {},
+    "blocked": false,
+    "reason": "approved",
+    "input_data": {}
+  },
+  {
+    "timestamp": "2025-10-06T19:53:47.774827",
+    "tool_name": "",
+    "tool_input": {},
+    "blocked": false,
+    "reason": "approved",
+    "input_data": {}
+  },
+  {
+    "timestamp": "2025-10-06T19:53:58.325001",
+    "tool_name": "",
+    "tool_input": {},
+    "blocked": false,
+    "reason": "approved",
+    "input_data": {}
+  }
+]
