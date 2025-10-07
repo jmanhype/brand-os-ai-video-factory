@@ -1,0 +1,10 @@
+# Claude Code logs
+.claude/
+
+# macOS
+.DS_Store
+
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.trash/
