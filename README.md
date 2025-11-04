@@ -76,3 +76,56 @@ Member progression and community building.
 ## Emergency Protocol
 
 For trending/breaking content: [[04-Operations/Rapid Response]]
+
+---
+
+## Getting Started
+
+### For New Users
+
+1. **Clone or download this repository**
+2. **Open in Obsidian** (or your preferred markdown editor)
+3. **Review the configuration template** at `config.template.md`
+4. **Start with the Quick Start** section above
+
+### For Contributors
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- How to propose changes
+- Code of conduct
+- Documentation standards
+- Pull request process
+
+## Configuration
+
+Before using the marketing materials, you'll need to configure placeholder URLs:
+
+- `[STARTER_CHECKLIST_URL]` - Link to your starter checklist
+- `[SKOOL_URL]` - Link to your Skool community
+- `[FRI_TIME_CT]` - Your Build Friday time in Central Time
+- `[YOUR SKOOL LINK]` - Alternative Skool link reference
+
+See `config.template.md` for a complete list and instructions.
+
+## Repository Structure
+
+```
+├── 01-Core/              # Brand identity & strategy
+├── 02-Marketing/         # Customer-facing content
+├── 03-Skool/            # Membership platform content
+├── 04-Operations/        # Internal processes
+├── 05-Creator-Workflows/ # Content production systems
+├── 06-Growth-Retention/ # Member progression
+└── Brand OS/            # Obsidian Bases & reference
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Built with:
+- [Obsidian](https://obsidian.md) for knowledge management
+- Obsidian Bases for dynamic content views
+- AI-assisted workflow automation
